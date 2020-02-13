@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/passwordParrot.css">
+    </head>
+    <body>
+        <div class = "contactForm">
+            <h2> @Ifycode </h2>
+            <h3> Password Parrot </h3>
+            <form id="contactForm">
+                <input name="name" type="text" value="" class="formInput name" placeholder="Name" required> <br>
+                <input name="password" type="password" id="pass" class="pass formInput" placeholder="Password" autocomplete="off" maxlength="10"> <br>
+                <div class="passwordParrot">
+                    <span class="textParrot"> 8 characters min </span>
+                    <p class="firstBoxParrot"></p>
+                    <p class="secondBoxParrot"></p>
+                    <p class="thirdBoxParrot"></p>
+                </div>
+            </form>
+            <button class="submit"> Sign up </button>
+            <button id="showHidePass" class="showPassword"></button>
+        </div>
+        <script src="js/jquery-3.4.1.js"> </script>
+        <script src="js/passwordParrot.js"> </script>
+    </body>
+</html>
