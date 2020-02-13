@@ -6,3 +6,4 @@ https://ifycode.github.io/Password-strength-test-form/
 
 Netlify:
 https://ifycode-password-parrot.netlify.com/
+Added links to sites in README.md
