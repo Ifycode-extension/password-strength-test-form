@@ -1,4 +1,4 @@
-# Password Strength Test Form Project
+# Password Strength Test Form
 Form tells if password is weak, just ok, or strong when input field value changes. Jquery. Javascript.
 
 Github pages:
